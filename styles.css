@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    margin: 0 5%
+}
+.site-header {
+    padding-top: 1%;
+    background-color: #122536;
+    color:aliceblue;
+}
+.logo {
+    margin-right: 50px;
+}
+.main-nav {
+    display: flex;
+}
+.contacts-menu {
+    margin-left: auto;
+}
+.site-menu, .contacts-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    column-gap: 20px;
+}
+.site-menu a, .contacts-menu a {
+    text-decoration: none;
+    color: #f9d335;
+}
+.site-menu a:hover{
+    color: #f1bc19;
+}
+.icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+.icon-mail {
+    background: url("img/mail.png") no-repeat;
+    background-size: cover;
+}
+.icon-phone {
+    background: url("img/phone.png") no-repeat;
+    background-size: cover;
+}
+.btn {
+    display:inline-block;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 50px;
+
+    color:#222;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn:hover {
+    transition: 2s;
+    box-shadow: inset 0px -15px #fbd8c3;
+}
+.btn-yellow {
+    background-color:#f1bc19;
+}
